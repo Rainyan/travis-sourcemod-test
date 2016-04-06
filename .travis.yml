@@ -15,7 +15,7 @@ install:
 before_script:
     - cd addons/sourcemod/scripting/
     - chmod +x spcomp
-script: ./compile.sh sm_testplugin.sp
+script: ./compile.sh ./scripting/sm_testplugin.sp
 
 #Notifications
 notifications:
